@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Compras</title>
+</head>
+<body>
+   
+    <div class="container">
+        <h1>Lista de compras</h1>
+        <p class="subtitle">Facilite sua ida ao supermercado</p>
+
+        <div class="form">
+ 
+            <div class="inputGroup">
+                <input type="text" id="item" placeholder="Digite o nome do item">
+                <input type="text" id="quantidade" placeholder="Qtd">
+            </div>
+     
+            <button id="add" onclick="adicionarItem()">Adicionar Item</button>
+     
+        </div>
+     
+        <ul class="lista">
+            
+        </ul>
+       
+        <div class="actions">
+            <button class="clean" onclick="limparLista()">Limpar Lista</button>
+            <button class="clean-buy" onclick="limparComprados()">Limpar Itens Comprados</button>
+        </div>
+    </div>
+ 
+    <script src="script.js"></script>
+</body>
+</html>
