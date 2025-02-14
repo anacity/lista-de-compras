@@ -138,3 +138,17 @@ li button {
 li input {
     accent-color: var(--yellow);
 }
+
+@media(max-width: 800px){
+    .inputGroup {
+        flex-direction: column;
+    }
+
+    #item {
+        width: 96%;
+    }
+
+    #quantidade {
+        width: 96%;
+    }
+}
